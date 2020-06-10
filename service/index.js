@@ -14,7 +14,7 @@ const database = require('./Modules/Database/dbProvider')();
 const response = require('./Common/responseModel');
 const app = express();
 
-var port = 3300;
+var port = process.env.PORT || 3300;
 app.use(compression());
 app.use(logger("combined"));
 app.use(cors());

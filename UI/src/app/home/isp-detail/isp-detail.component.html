@@ -2,7 +2,7 @@
 
   <div class="row">
     <div class="col s12 m12 l5" style="padding-right: 0px;">
-      <img class="image-placeholder" src="../../../assets/icons/{{ISPDetail?.image}}">
+      <img *ngIf="ISPDetail" class="image-placeholder" src="../../../assets/icons/{{ISPDetail?.image}}">
     </div>
     <div class="col s12 m12 l7">
       <div class="details-card">

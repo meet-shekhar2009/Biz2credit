@@ -1,8 +1,13 @@
 <div class="row first-section-header">
   <div class="col s0 m2 l2"><i class="fa fa-home" aria-hidden="true"></i> Home</div>
-  <div class="col  s12 m10 l10"><input type="text" id="txtsearch" placeholder="Search (by ISP name,price,rating)"
-      [ngModel]="searchtext" (ngModelChange)="onKeydown($event)">
+  <div class="col  s12 m10 l10" style="position: relative;"><input type="text" id="txtsearch" placeholder="Search (by ISP name,price,rating)"
+      [ngModel]="searchtext" (ngModelChange)="searchtext=$event;onKeydown($event)">
+      <div class="clear-search" (click)="searchtext='';onKeydown('');">
+      X
+      </div>
+ 
   </div>
+
 </div>
 <ng-container *ngFor="let T of ISPsList">
   <div (click)="onrowClick(T)" class="row table-row">
