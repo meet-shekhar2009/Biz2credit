@@ -1,0 +1,236 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+.h-f {
+  padding: 3px;
+  width: 100%;
+
+}
+
+body {
+  /* font-family: 'Abel'; */
+  font-family: 'Nunito', sans-serif;
+  color: #000000;
+  background-color: #F1F1F1;
+  padding: 0;
+  margin: 0;
+}
+
+#dtls {
+  background-color: #F1F1F1;
+  padding: 5px;
+}
+
+.header {
+  background-color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  border: 1px solid #f0f0f0;
+}
+
+
+
+.score {
+  position: absolute;
+  padding: 5px;
+  border: 1px solid #3c8e40;
+  border-radius: 5px;
+  font-size: 12px;
+
+
+}
+
+.score div {
+  padding: 2px;
+  width: 50%;
+
+}
+
+.score div:first-child {
+  border-right: 1px solid #3c8e40;
+  justify-content: flex-start;
+}
+
+.score div:nth-child(2) {
+  justify-content: flex-end;
+}
+
+.first-section {
+  border-right: 1px solid #cfcaca;
+}
+
+@media only screen and (max-width: 600px) {
+  .score {
+    max-width: 35%;
+    text-align: left;
+    right: 0%;
+    top: 11px;
+  }
+
+  .score div:first-child {
+    border-right: none;
+  }
+}
+
+
+@media only screen and (min-width: 600px) {
+  .score {
+    max-width: 35%;
+    text-align: left;
+    right: 0%;
+    top: 11px;
+  }
+
+  .score div:first-child {
+    border-right: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .score {
+    min-width: 25%;
+    right: 0%;
+    top: 8px;
+  }
+
+  .score div:first-child {
+    border-right: none;
+  }
+}
+
+
+@media only screen and (min-width: 992px) {
+  .score {
+    min-width: 20%;
+    right: 10%;
+    top: 15px;
+  }
+}
+
+
+@media only screen and (min-width: 1200px) {}
+
+#txtsearch {
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 14px;
+  width: 98%;
+  margin-top: 10px;
+  background-color: #ffffff;
+}
+
+.first-section-header {
+  border-bottom: 1px solid #cfcaca;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.first-section-header div:first-child {
+  padding: 12px;
+}
+
+.first-section-header div:first-child i {
+  font-size: 2vw;
+}
+
+.table-row {
+  background-color: #ffffff;
+  padding: 8px;
+  margin: 10px !important;
+  border: 1px solid #99CC00;
+  border-radius: 5px;
+  background-color: #E4ECDF;
+}
+
+.table-row:hover {
+  background-color: rgb(141, 172, 122);
+  cursor: pointer;
+}
+
+.grid-second-column {
+  text-align: right;
+}
+
+.grid-action-box {
+  display: flex;
+  justify-content: center;
+}
+
+.sort-icon {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.grid-footer-action-box {
+  display: flex;
+  padding: 10px;
+  margin: 10px !important;
+  border: 1px solid gray;
+  border-radius: 5px;
+  min-width: 100px;
+  justify-content: center;
+}
+
+.details-card {
+  margin-right: 10px;
+  margin-top: 10px;
+  width: 100%;
+  min-height: 100px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: 1px solid #c0c0c0;
+}
+
+.card-header {
+  background-color: gray;
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-body div {
+  padding: 15px;
+}
+
+.rating {
+  font-size: 1.5vw;
+
+}
+
+.rating .fa {
+  padding-right: 10px;
+  color: #D8A633;
+}
+
+.description {
+  padding: 15px 3px 15px 3px;
+  border: 1px solid #c0c0c0;
+  border-radius: 8px;
+  background-color: #E9ECF3;
+}
+
+.button-panel button {
+  color: #89C96A;
+  border: 1px solid #89C96A;
+  padding: 10px;
+  margin: 7px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.image-placeholder {
+  width: 100%;
+   height: 200px;
+
+  padding: 10px;
+  margin-top: 35px;
+
+}
+
+

@@ -1,0 +1,59 @@
+<div id="dtls">
+
+  <div class="row">
+    <div class="col s12 m12 l5" style="padding-right: 0px;">
+      <img class="image-placeholder" src="../../../assets/icons/{{ISPDetail?.image}}">
+    </div>
+    <div class="col s12 m12 l7">
+      <div class="details-card">
+        <div class="card-header">
+          {{ISPDetail?.name}}
+        </div>
+        <div class="card-body">
+          <div><i class="fa fa-wifi" aria-hidden="true"></i> maximum speed {{ISPDetail?.max_speed}} mbps</div>
+          <div><i class="fa fa-phone-square" aria-hidden="true"></i> {{ISPDetail?.contact_number}}</div>
+          <div><i class="fa fa-envelope" aria-hidden="true"></i> {{ISPDetail?.email}}</div>
+          <div><i class="fa fa-money" aria-hidden="true"></i> Min Plan: <i class="fa fa-inr" aria-hidden="true"></i>
+            {{ISPDetail?.lowest_price}}/-</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12 m12 l12 rating">
+      Rating:
+      <ng-container *ngFor="let T of Ratings">
+        <i class="fa" [ngClass]="T?'fa-star':'fa-star-o'" aria-hidden="true"></i>
+      </ng-container>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12 m12 l12">
+      <div class="description">
+        {{ISPDetail?.description}}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col s12 m12 l12">
+    <div class="row button-panel">
+      <div class="col s12 m4 l4" style="padding-left: 4px;">
+        <a href="{{ISPDetail?.url}}" target="_blank">
+          <button class="btn-link"><i class="fa fa-link" aria-hidden="true"></i> Link</button>
+        </a>
+      </div>
+      <div class="col col s12 m4 l4">
+        <button class="btn-share"><i class="fa fa-share-square" aria-hidden="true"></i> Share</button>
+      </div>
+      <div class="col col s12 m4 l4">
+        <button class="btn-download" (click)="exportToImage()"><i class="fa fa-cloud-download" aria-hidden="true"></i>
+          Download</button>
+
+      </div>
+
+    </div>
+  </div>
+</div>

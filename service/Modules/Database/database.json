@@ -1,0 +1,91 @@
+[{
+    "name": "BSNL",
+    "lowest_price": 950,
+    "rating": 5,
+    "max_speed": 60,
+    "description": "Our Internet plans are now available at never-before prices. You can also opt for a voice top-up pack and enjoy unlimited local and STD calls from your BSNL landline.",
+    "contact_number": 9511287180,
+    "email": "BSNL@BSNL.com",
+    "image": "bsnl.png",
+    "url": "https://www.bsnl.co.in/"
+}, {
+    "name": "Airtel",
+    "lowest_price": 1200,
+    "rating": 1,
+    "max_speed": 30,
+    "description": "Our Internet plans are now available at never-before prices. You can also opt for a voice top-up pack and enjoy unlimited local and STD calls from your Airtel landline.",
+    "contact_number": 9565949750,
+    "email": "Airtel@Airtel.com",
+    "image": "airtel.jpg",
+    "url": "https://www.airtel.in/broadband/"
+}, {
+    "name": "Hathway",
+    "lowest_price": 800,
+    "rating": 3,
+    "max_speed": 60,
+    "description": "Our Internet plans are now available at never-before prices. You can also opt for a voice top-up pack and enjoy unlimited local and STD calls from your Hathway landline.",
+    "contact_number": 9347299470,
+    "email": "Hathway@Hathway.com",
+    "image": "hathway.jpg",
+    "url": "https://www.hathway.com/Broadband"
+}, {
+    "name": "EBBNL/BNET",
+    "lowest_price": 650,
+    "rating": 2,
+    "max_speed": 70,
+    "description": "Our Internet plans are now available at never-before prices. You can also opt for a voice top-up pack and enjoy unlimited local and STD calls from your EBBNL/BNET landline.",
+    "contact_number": 9401962040,
+    "email": "EBBNL/BNET@EBBNL/BNET.com",
+    "image": "imageplaceholder.png",
+    "url": "http://www.ebbnlbnet.com/Broadband"
+}, {
+    "name": "ACT Broadband",
+    "lowest_price": 600,
+    "rating": 4,
+    "max_speed": 40,
+    "description": "Our Internet plans are now available at never-before prices. You can also opt for a voice top-up pack and enjoy unlimited local and STD calls from your ACT Broadband landline.",
+    "contact_number": 9729937460,
+    "email": "ACT Broadband@ACT Broadband.com",
+    "image": "act.png",
+    "url": "https://www.actcorp.in/"
+}, {
+    "name": "YOU Broadband",
+    "lowest_price": 750,
+    "rating": 1,
+    "max_speed": 70,
+    "description": "Our Internet plans are now available at never-before prices. You can also opt for a voice top-up pack and enjoy unlimited local and STD calls from your YOU Broadband landline.",
+    "contact_number": 9073986620,
+    "email": "YOU Broadband@YOU Broadband.com",
+    "image": "you.jpg",
+    "url": "https://youbroadband.in/"
+}, {
+    "name": "Mona Digital Network",
+    "lowest_price": 750,
+    "rating": 1,
+    "max_speed": 40,
+    "description": "Our Internet plans are now available at never-before prices. You can also opt for a voice top-up pack and enjoy unlimited local and STD calls from your Mona Digital Network landline.",
+    "contact_number": 9511287180,
+    "email": "Mona Digital Network@Mona Digital Network.com",
+    "image": "imageplaceholder.png",
+    "url": "http://www.monadigital.com/Broadband network"
+}, {
+    "name": "Railtel",
+    "lowest_price": 1100,
+    "rating": 3,
+    "max_speed": 100,
+    "description": "Our Internet plans are now available at never-before prices. You can also opt for a voice top-up pack and enjoy unlimited local and STD calls from your Railtel landline.",
+    "contact_number": 9019324050,
+    "email": "Railtel@Railtel.com",
+    "image": "railtel.jpg",
+    "url": "https://www.railtelindia.com/"
+}, {
+    "name": "Reliance DSL",
+    "lowest_price": 1000,
+    "rating": 2,
+    "max_speed": 80,
+    "description": "Our Internet plans are now available at never-before prices. You can also opt for a voice top-up pack and enjoy unlimited local and STD calls from your Reliance DSL landline.",
+    "contact_number": 9729937460,
+    "email": "Reliance DSL@Reliance DSL.com",
+    "image": "relince.jpg",
+    "url": "https://relianceconnects.com/broadband/"
+}]
